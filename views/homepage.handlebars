@@ -1,0 +1,7 @@
+{{#each userPosts}}
+<h1>User: {{ this.user.username }}</h1>
+<p>Post: {{ this.title }}</p>
+<button class="comment-btn">Comment</button>
+{{/each}}
+
+<script src="/js/comment.js"></script>
